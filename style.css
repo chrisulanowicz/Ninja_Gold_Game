@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "geneva", sans-serif;
+}
+#container {
+	width: 960px;
+	margin: 0px auto;
+	padding: 20px;
+	background: #E5E4E2;
+}
+header {
+	text-align: center;
+	font-size: 2em;
+}
+#top_bar {
+	margin-top: 20px;
+}
+	#top_bar, h2, p, form {
+		display: inline-block;
+	}
+	#restart {
+		margin-left: 200px;
+		font-size: 1.5em;
+	}
+	#top_bar input {
+		width: 100px;
+		height: 40px;
+		background: red;
+		border-radius: 5px;
+		font-size: 1em;
+	}
+	#counter {
+		height: 60px;
+		width: 180px;
+		border:1px solid gold;
+		border-radius: 5px;
+		display: inline-block;
+		margin-left: 30px;
+		font-size: 2em;
+		text-align: center;
+		background-color: gold;
+	}
+#main_row {
+	margin-top: 50px;
+}
+	.moneymaker {
+		width: 220px;
+		height: 220px;
+		display: inline-block;
+		border: 1px solid black;
+		text-align: center;
+		padding: 5px;
+		border-radius: 8px;
+	}
+	.moneymaker,h3, h4, form {
+		margin-top: 30px;
+	}
+	.moneymaker input {
+		height: 40px;
+		width: 100px;
+		background-color: gold;
+	}
+#low_bar {
+	margin-top: 40px;
+}
+#log {
+	margin-top: 10px;
+	width: 920px;
+	height: 180px;
+	border: 1px solid gray;
+	color: #347235;
+	overflow: scroll;
+	background-color: white;
+}
+.lost {
+	color: red;
+}
+.jackpot {
+	color: gold;
+}
